@@ -1,9 +1,16 @@
+:root {
+    --primary-color: #FA7436; /* Puedes cambiar el valor a cualquier color que desees */
+    --primary-font: 'Volkhov', serif; /* Fuentes primarias */
+    --secondary-font: 'Poppins', sans-serif; /* Fuentes secundarias */
+}
+
 html, body {
     min-height: 100%;
     max-width: 100%;
     background-color: #FEFCFB;
     margin: 0;
     padding: 0;
+    font-family: var(--primary-font);
 }
 
 *{
@@ -149,4 +156,118 @@ html, body {
     width: 200px;
     height: 200px;
 
+}
+
+
+/* Estilos para section 1 y 2 */
+
+.nav-link {
+    font-family: var(--secondary-font);  
+    color: #222222;
+    font-size: 16px;
+    font-weight: 500;  
+}
+.title-nav {
+    color: #222222;
+}
+.article-explore {
+    font-family: var(--secondary-font);  
+    color: #222222;
+    font-size: 16px;
+    font-weight: 500;  
+    
+}
+
+.section-odd{
+    background-color: #FEFCFB;
+
+}
+
+.section-even {
+    background-color: #F7F8FC;
+}
+
+.text-one {
+    font-size: 64px;
+    font-weight: bold;
+    line-height: 1.1;
+}
+
+.text-one-middle {
+    font-size: 64px;
+    color: var(--primary-color);
+    line-height: 1.1;
+}
+
+.text-two {
+    font-size: 20px;
+    font-family: var(--secondary-font);
+}
+
+.text-three {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.text-three-middle {
+    font-size: 48px;
+    color: var(--primary-color);
+}
+
+.text-four {
+    font-size: 18px;
+    font-family: var(--secondary-font);
+}
+
+.text-down {
+    font-family: var(--secondary-font);  
+    font-size: 12px; 
+}
+
+
+.card-text{
+    font-family: var(--secondary-font);  
+    font-size: 16px; 
+}
+
+.card-title {
+    font-family: var(--secondary-font); 
+    font-size: 24px;
+    font-weight: 500;  
+}
+
+/* Estilos personalizados para los botones */
+.custom-button1{
+    background-color: white;
+    color: var(--primary-color);
+    width: 160px;
+    height: 50px;
+    border-radius: 5px;
+    margin-bottom: 10px; 
+    font-family: var(--secondary-font);
+    border-color: var(--primary-color);
+}
+
+.custom-button2 {  
+    background-color: var(--primary-color);      
+    color: white;
+    width: 160px;
+    height: 50px;
+    border-radius: 5px;
+    margin-bottom: 10px; 
+    font-family: var(--secondary-font);
+}
+
+.custom-button1:hover {
+    color: var(--primary-color);
+    background-color: white; 
+    border-color: var(--primary-color);
+}
+.custom-button2:hover {
+    color: white; 
+    background-color: var(--primary-color); 
+}
+
+.icons-data svg{
+    color: var(--primary-color);
 }
