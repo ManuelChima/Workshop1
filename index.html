@@ -7,6 +7,8 @@
             name    = "viewport" 
             content = "width=device-width, initial-scale=1.0"
         >
+        <!--Iconos-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
         <link
             href        = "https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
@@ -21,6 +23,7 @@
             href    = "./styles/styles.css"
             rel     = "stylesheet"
         >
+      
     </head>
     <body style="width: 100%; height: auto;">
         <div class="container justify-content-center align-items-center mx-auto">
@@ -415,26 +418,96 @@
               </div>
             </div>
             <div class="container"> <!--sección 6-->
-
+                <div class="row justify-content-center align-items-center">
+                    <h1 class="volkhov-h1 text-center">Get update with <span style="color: #FA7436;">latest blog</span></h1>
+                    <div class="row" style="margin-top: 4rem;"> 
+                        <!--cards-->
+                        <!-- carta 1 Amazing  -->
+                        <div class="col">
+                            <div class="card" style="width: 18rem;">
+                                <div class="img-card">
+                                    <img class="card-img-top" src="./img/cards/amazing_card.png" alt="Card image cap">
+                                </div>
+                                <div class="card-body">
+                                    <p class="poppins-text-card">The Amazing Difference a Year of Travelling .</p>
+                                    <p class="inter-text-card">July 27, 2021</p> 
+                                </div>
+                            </div>
+                        </div>
+                        <!-- carta 2 Travel  -->
+                        <div class="col">
+                            <div class="card" style="width: 18rem;">
+                                <div class="img-card">
+                                    <img class="card-img-top" src="./img/cards/travel_card.png" alt="Card image cap">
+                                </div>
+                                <div class="card-body">
+                                    <p class="poppins-text-card">Travel far enough, you meet yourself.</p>
+                                    <p class="inter-text-card">July 27, 2021</p> 
+                                </div>
+                            </div>
+                        </div>
+                        <!-- carta 3 Africa  -->
+                        <div class="col">
+                            <div class="card" style="width: 18rem;">
+                                <div class="img-card">
+                                    <img class="card-img-top" src="./img/cards/africa_card.png" alt="Card image cap">
+                                </div>
+                                <div class="card-body">
+                                    <p class="poppins-text-card">How to Save Money While Visiting Africa .</p>
+                                    <p class="inter-text-card">July 27, 2021</p> 
+                                </div>
+                            </div>
+                        </div>    
+                        <!-- carta 4 Reflections  -->
+                        <div class="col">
+                            <div class="card" style="width: 18rem;">
+                                <div class="img-card">
+                                    <img class="card-img-top" src="./img/cards/reflections_card.png" alt="Card image cap">
+                                </div>
+                                <div class="card-body">
+                                    <p class="poppins-text-card">Reflections on 5 Months of Travel: Time to Hang</p>
+                                    <p class="inter-text-card">July 27, 2021</p> 
+                                </div>
+                            </div>
+                        </div>    
+                    
+                  </div>
+                  <img class="p-0 mt-5" src="./Icon/Slider.png" style="width: 54px; height: 14px; align-items: center;" alt="">
             </div>
-            <footer>
-              <div class="row justify-content-center align-items-center mx-auto" style="justify-content: space-between;">
-                <div class="col-5 justify-content-center align-items-center mx-auto" style="width: fit-content;">
-                  <p class="justify-content-center align-items-center mx-auto" style="text-align: left; width: fit-content;"
-                  >
-                  Copyright, Trabook 2022. All rights reserved.
-                  </p>
-                </div>
-                <div class="col-5 justify-content-center align-items-center mx-auto" style="width: fit-content;">
-                  <p 
-                    class="justify-content-center align-items-center mx-auto"
-                    style="text-align: right; width: fit-content;"
-                  >
-                  Terms & Conditions
-                </p>         
-                </div>            
-              </div>
-            </footer>
+            
         </div>
+        <div class="container" > <!--sección 7-->
+            <div class="row justify-content-center align-items-center" style="background: #FA7436;">
+                <h1 class="volkhov-h1 text-center align-items-center pt-5"><span style="color: #FFFFFF;">Subscribe and get exclusive</span></h1>
+                <h1 class="volkhov-h1 text-center align-items-center pb-5"><span style="color: #FFFFFF;">deals & offer</span></h1>
+                <form class="row g-3 justify-content-center align-items-center pt-5 pb-5">
+                    <div class="col-auto pb-5 pt-5">
+                        <div style="position: relative;">
+                          <input type="text" class="form-control fa-regular fa-envelope" placeholder="&#xf0e0; Enter your mail" aria-label="Nombre de usuario del destinatario" aria-describedby="button-addon2" style="padding-right: 40rem; padding-top: 25px; padding-bottom: 25px;">
+                          <button class="btn custom-button2 m-auto" type="button" id="button-addon2" style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%);">Suscribe</button>
+                        </div>
+                    </div>
+                    
+                </form>
+                
+        </div>
+        <footer>
+            <div class="row justify-content-center align-items-center mx-auto" style="justify-content: space-between;">
+              <div class="col-5 justify-content-center align-items-center mx-auto" style="width: fit-content;">
+                <p class="justify-content-center align-items-center mx-auto" style="text-align: left; width: fit-content;"
+                >
+                Copyright, Trabook 2022. All rights reserved.
+                </p>
+              </div>
+              <div class="col-5 justify-content-center align-items-center mx-auto" style="width: fit-content;">
+                <p 
+                  class="justify-content-center align-items-center mx-auto"
+                  style="text-align: right; width: fit-content;"
+                >
+                Terms & Conditions
+              </p>         
+              </div>            
+            </div>
+          </footer>
     </body>
 </html>

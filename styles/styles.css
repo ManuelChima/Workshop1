@@ -271,3 +271,24 @@ html, body {
 .icons-data svg{
     color: var(--primary-color);
 }
+
+/* Estilos para section 6 y 7 */
+
+.poppins-text-card{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: left;
+
+}
+.inter-text-card{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    color: #999999;
+}
+
+
