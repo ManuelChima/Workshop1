@@ -291,4 +291,57 @@ html, body {
     color: #999999;
 }
 
+.poppins-input-text{
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v21/pxiEyp8kv8JHgFVrJJnecmNE.woff2) format('woff2');
+    unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      
+}
+
+.poppins-text-16{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: left;
+    color: #666666;
+
+}
+
+.poppins-text-footer{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #666666;
+}
+
+.palmera1{
+    position: relative;
+    bottom: 10.6rem;
+    left: 39.2rem;
+    width: 100px;
+    height: 100px;
+
+}
+.palmera2{
+    position: relative;
+    bottom: 12.5rem;
+    left: 36.4rem;
+    width: 100px;
+    height: 100px;
+
+}
+.elipses{
+    position: relative;
+    top: 21rem;
+    right: 36.5rem;
+    width: 400px;
+    height: 400px;
+}
 
