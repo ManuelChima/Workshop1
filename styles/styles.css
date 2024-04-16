@@ -1,5 +1,6 @@
 :root {
     --primary-color: #FA7436; /* Puedes cambiar el valor a cualquier color que desees */
+    --secondary-color: #FEFCFB; /* Puedes cambiar el valor a cualquier color que desees */
     --primary-font: 'Volkhov', serif; /* Fuentes primarias */
     --secondary-font: 'Poppins', sans-serif; /* Fuentes secundarias */
 }
@@ -7,7 +8,7 @@
 html, body {
     min-height: 100%;
     max-width: 100%;
-    background-color: #FEFCFB;
+    background-color: var(--secondary-color);
     margin: 0;
     padding: 0;
     font-family: var(--primary-font);
@@ -16,14 +17,13 @@ html, body {
 *{
     margin  : 0;
     padding : 0;
-    --primary-color: #FA7436;
 }
 
 .a-menu{
     font-size: 16px;
     text-decoration: none;
     color: black;
-    font-family: Poppins;
+    font-family: var(--secondary-font);
 }
 
 .down-arrow{
@@ -33,13 +33,13 @@ html, body {
 }
 
 .small-card-1{
-    font-family : Poppins;
+    font-family : var(--secondary-font);
     font-size   : 12px;
     color       : #666666;
 }
 
 .poppins-text{
-    font-family : Poppins;
+    font-family : var(--secondary-font);
     color       : #666666;
 }
 
@@ -64,7 +64,7 @@ html, body {
 }
 
 .container {
-    background: #FEFCFB;
+    background: var(--secondary-color);
     height: 750px;
     width: 100%;
     padding: 0;
@@ -179,7 +179,7 @@ html, body {
 }
 
 .section-odd{
-    background-color: #FEFCFB;
+    background-color: var(--secondary-color);
 
 }
 
@@ -276,7 +276,7 @@ html, body {
 /* Estilos para section 6 y 7 */
 
 .poppins-text-card{
-    font-family: Poppins;
+    font-family: var(--secondary-font);
     font-size: 18px;
     font-weight: 500;
     line-height: 26px;
@@ -294,7 +294,7 @@ html, body {
 
 .poppins-input-text{
     
-    font-family: 'Poppins';
+    font-family: 'var(--secondary-font)';
     font-style: normal;
     font-weight: 400;
     font-display: swap;
@@ -303,7 +303,7 @@ html, body {
       
 }
 .poppins-text-16{
-    font-family: Poppins;
+    font-family: var(--secondary-font);
     font-size: 16px;
     font-weight: 500;
     line-height: 32px;
@@ -312,7 +312,7 @@ html, body {
 
 }
 .poppins-text-footer{
-    font-family: Poppins;
+    font-family: var(--secondary-font);
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
