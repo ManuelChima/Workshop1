@@ -1,8 +1,10 @@
 :root {
     --primary-color: #FA7436; /* Puedes cambiar el valor a cualquier color que desees */
     --secondary-color: #FEFCFB; /* Puedes cambiar el valor a cualquier color que desees */
+    --tertiary-color: #666666; /* Puedes cambiar el valor a cualquier color que desees */
     --primary-font: 'Volkhov', serif; /* Fuentes primarias */
     --secondary-font: 'Poppins', sans-serif; /* Fuentes secundarias */
+    --tertiary-font: 'Inter', sans-serif; /* Fuentes terciarias */
 }
 
 html, body {
@@ -284,7 +286,7 @@ html, body {
 
 }
 .inter-text-card{
-    font-family: Inter;
+    font-family: var(--tertiary-font);
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
@@ -292,23 +294,13 @@ html, body {
     color: #999999;
 }
 
-.poppins-input-text{
-    
-    font-family: 'var(--secondary-font)';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url(https://fonts.gstatic.com/s/poppins/v21/pxiEyp8kv8JHgFVrJJnecmNE.woff2) format('woff2');
-    unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
-      
-}
 .poppins-text-16{
     font-family: var(--secondary-font);
     font-size: 16px;
     font-weight: 500;
     line-height: 32px;
     text-align: left;
-    color: #666666;
+    color: var(--tertiary-color);
 
 }
 .poppins-text-footer{
@@ -317,10 +309,10 @@ html, body {
     font-weight: 400;
     line-height: 24px;
     text-align: left;
-    color: #666666;
+    color: var(--tertiary-color);
 }
 .fondo-palmera-elipse{
-    background: #FA7436;
+    background: var(--primary-color);
     border-radius:16px;
     background-image: url('../img/Elements.png');
     background-repeat:no-repeat;
