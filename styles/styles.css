@@ -46,17 +46,17 @@ html, body {
 }
 
 .orange-button{
-    background-color: #FA7436;
+    background-color: var(--primary-color);
     color           : white;
 }
 
 .orange-border-button{
-    border-color    : #FA7436;
-    color           : #FA7436;
+    border-color    :var(--primary-color);
+    color           :var(--primary-color);
 }
 
 .orange-borderles-button{
-    color: #FA7436;
+    color: var(--primary-color);
 }
 
 .volkhov-h1{
@@ -117,10 +117,21 @@ html, body {
     margin: 0px;
     background-color: #F7F8FC;
     padding: 10% 3%;
+    background-image: url('../img/avionpng.png');
+    background-repeat:no-repeat;
+    background-size: 10rem;
+    background-position: top;
+    background-position-x: right;
+    background-position-y: 4rem;
 
     .card-body{
         width: 70%;
+        
     }
+}
+
+h4{
+    font-family: var(--secondary-font);
 }
 
 .subTitle{
@@ -152,9 +163,9 @@ html, body {
 }
 
 .avion-png{
-    position: absolute;
-    top: 144rem;
-    left: 80rem;
+    position: relative;
+    top: 0rem;
+    left: 0rem;
     width: 200px;
     height: 200px;
 
@@ -167,11 +178,24 @@ html, body {
     font-family: var(--secondary-font);  
     color: #222222;
     font-size: 16px;
-    font-weight: 500;  
+    font-weight: 500;   
 }
+
+.nav-link:hover {
+    font-family: var(--secondary-font);  
+    color: var(--primary-color);    
+    font-size: 16px;
+    font-weight: 500;   
+}
+
 .title-nav {
     color: #222222;
 }
+
+.title-nav:hover {
+    color: var(--primary-color); 
+}
+
 .article-explore {
     font-family: var(--secondary-font);  
     color: #222222;
@@ -265,10 +289,12 @@ html, body {
     color: var(--primary-color);
     background-color: white; 
     border-color: var(--primary-color);
+    box-shadow: 0px 8px 16px 0px #fa743652;
 }
 .custom-button2:hover {
     color: white; 
     background-color: var(--primary-color); 
+    box-shadow: 0px 8px 16px 0px #fa743652;
 }
 
 .icons-data svg{
@@ -317,4 +343,9 @@ html, body {
     background-image: url('../img/Elements.png');
     background-repeat:no-repeat;
     background-size:cover;
+}
+
+.bg-white{
+    box-shadow: 0px 2px 80px 2px rgb(0 0 0 / 6%);
+    border-radius: 10px;
 }
